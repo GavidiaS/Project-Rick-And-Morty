@@ -1,0 +1,14 @@
+header,
+main,
+footer {
+  width: 100%;
+}
+
+header,
+footer {
+  min-height: 5vh;
+}
+
+main {
+  min-height: 100vh;
+}

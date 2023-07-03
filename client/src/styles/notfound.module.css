@@ -1,0 +1,13 @@
+.found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--colorThree);
+}
+.found figure {
+  width: 100%;
+  max-width: 900px;
+}
+.found figure img {
+  width: 100%;
+}

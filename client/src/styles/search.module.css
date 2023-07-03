@@ -1,0 +1,80 @@
+.search {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background-color: #1C254195;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  background-color: var(--colorOne);
+}
+.close {
+  outline: none;
+  border: none;
+  background: none;
+  width: 30px;
+  height: 30px;
+  margin: 5px 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--colorFour);
+  cursor: pointer;
+  transition: all .3s linear;
+}
+.close:hover {
+  transform: scale(1.2);
+}
+.bar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bar input {
+  width: 200px;
+  height: 25px;
+  outline: 2px solid var(--colorFour);
+  border: none;
+  background: none;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  color: var(--colorFour);
+  padding: 6px;
+}
+.bar input::placeholder {
+  color: var(--colorFour);
+}
+.bar button {
+  outline: none;
+  border: none;
+  background-color: var(--colorFour);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  color: var(--colorOne);
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all .3s linear;
+}
+.bar button:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width: 400px) {
+  .contain {
+    border-radius: 10px;
+  }
+}
