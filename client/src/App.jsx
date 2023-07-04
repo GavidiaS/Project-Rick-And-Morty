@@ -8,7 +8,7 @@ import FavoritePage from './pages/FavoritePage';
 import LoginPage from './pages/LoginPage';
 import NotFoundPage from './pages/NotFoundPage';
 
-axios.defaults.baseURL = "http://localhost:4001";
+axios.defaults.baseURL = "https://server-rick-and-morty.onrender.com";
 
 function App() {
   return (
