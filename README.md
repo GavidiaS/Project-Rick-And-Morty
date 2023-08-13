@@ -1,4 +1,4 @@
-<img src="https://www.silenzine.com/wp-content/uploads/2017/06/rick-morty-header.jpg" alt="RickAndMorty" />
+<img src="https://cdn.vox-cdn.com/thumbor/9HfS_-ugBoHDaLskP6ssJ8_nIkY=/0x22:1584x851/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24415978/rick_and_morty_s4_image.png" alt="RickAndMorty" />
 
 <br>
 
